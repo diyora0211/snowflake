@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    width:100% ;
+    height: 100vh;
+
+}
+form{
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    margin-left: 50%;
+    margin-right: 120px;
+    transform: translateX(-50%);
+    margin-top: 15%;
+    border: solid black;
+    border-radius: 15%;
+    backdrop-filter: blur(30px);
+    background-image:url("night_forest.png") ;
+    box-shadow: 5px 5px 10px black;
+}
+
+img{
+  
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: -35%;
+    transform: translateX(-50%);
+}
+
+    form h1{
+        margin-left: 35%;
+    }
+
+    form .emeyl{ 
+        margin-left: 6%;
+    }
+    form .ramka{
+        margin-top: 15%;
+        margin-left: 18%;
+    }
+    form .kod{
+        margin-top: 25%;
+    }
+
